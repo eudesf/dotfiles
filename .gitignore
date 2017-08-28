@@ -1,0 +1,5 @@
+.emacs.d/elpa
+.emacs.d/themes
+.emacs.d/eshell
+.emacs.d.backup/elpa
+.emacs.d.backup/themes
