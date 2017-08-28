@@ -27,9 +27,12 @@
     (load file)))
 
 ;; Set path to dependencies
+(setq site-lisp-dir
+      (expand-file-name "site-lisp" user-emacs-directory))
 (setq settings-dir
       (expand-file-name "settings" user-emacs-directory))
 (add-to-list 'load-path settings-dir)
+(add-to-list 'load-path site-lisp-dir)
 
 ;; Write backup files to own directory
 (setq backup-directory-alist
@@ -44,7 +47,17 @@
 ;; Are we on a mac?
 (setq is-mac (equal system-type 'darwin))
 
-(require 'appearance)
+;; libs
 (require 'expand-region)
-(require 'key-bindings)
+(require 'multiple-cursors)
+(require 'visual-regexp)
 
+;; Don't use expand-region fast keys
+(setq expand-region-fast-keys-enabled nil)
+
+;; Show expand-region command used
+(setq er--show-expansion-message t)
+
+;; settings
+(require 'appearance)
+(require 'key-bindings)

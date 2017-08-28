@@ -1,0 +1,6 @@
+[submodule ".emacs.d/site-lisp/mark-multiple"]
+	path = .emacs.d/site-lisp/mark-multiple
+	url = https://github.com/magnars/mark-multiple.el.git
+[submodule ".emacs.d/site-lisp/find-file-in-project"]
+	path = .emacs.d/site-lisp/find-file-in-project
+	url = https://github.com/technomancy/find-file-in-project.git
