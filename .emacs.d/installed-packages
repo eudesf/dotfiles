@@ -2,3 +2,5 @@ cyberpunk-theme
 expand-region
 multiple-cursors
 visual-regexp
+cider
+clj-refactor
