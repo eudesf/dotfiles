@@ -20,6 +20,10 @@
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
 (load custom-file)
 
+;; Keep local environment config in separate file
+(setq local-config-file (expand-file-name "local-config.el" user-emacs-directory))
+(load local-config-file)
+
 ;; Functions (load all files in defuns-dir)
 (setq defuns-dir (expand-file-name "defuns" user-emacs-directory))
 (dolist (file (directory-files defuns-dir t "\\w+"))
@@ -61,3 +65,5 @@
 ;; settings
 (require 'appearance)
 (require 'key-bindings)
+(require 'setup-paredit)
+(require 'setup-yasnippet)

@@ -4,3 +4,5 @@ multiple-cursors
 visual-regexp
 cider
 clj-refactor
+iy-go-to-char
+magit

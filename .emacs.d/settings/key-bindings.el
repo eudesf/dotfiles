@@ -20,4 +20,8 @@
 ;; if you use multiple-cursors, this is for you:
 (global-set-key (kbd "C-c m") 'vr/mc-mark)
 
+(global-set-key (kbd "M-m") 'iy-go-to-char)
+
+(global-set-key (kbd "C-x g") 'magit-status)
+
 (provide 'key-bindings)
