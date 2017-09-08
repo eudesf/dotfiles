@@ -12,7 +12,7 @@
 (setq cljr-favor-prefix-notation nil)
 (setq cljr-favor-private-functions nil)
 
-(cljr-add-keybindings-with-modifier "C-s-")
+(cljr-add-keybindings-with-prefix "C-c M-m")
 (define-key clj-refactor-map (kbd "C-x C-r") 'cljr-rename-file)
 
 (define-key clojure-mode-map [remap paredit-forward] 'clojure-forward-logical-sexp)

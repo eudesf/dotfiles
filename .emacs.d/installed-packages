@@ -12,3 +12,5 @@ zencoding-mode
 projectile
 clojure-mode-extra-font-locking
 flycheck-clojure
+elisp-slime-nav
+diminish
