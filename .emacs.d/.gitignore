@@ -1,2 +1,9 @@
 mc-lists.el
 auto-save-list/
+elpa/
+backups/
+.mc-lists.el
+ido.last
+projectile-bookmarks.eld
+projectile.cache
+local-config.el

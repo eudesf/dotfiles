@@ -1,4 +1,3 @@
-
 ;; Perform general cleanup.
 (global-set-key (kbd "C-c n") 'cleanup-buffer)
 (global-set-key (kbd "C-c C-n") 'cleanup-buffer)
@@ -23,5 +22,16 @@
 (global-set-key (kbd "M-m") 'iy-go-to-char)
 
 (global-set-key (kbd "C-x g") 'magit-status)
+
+;; window switching
+(windmove-default-keybindings)
+(global-set-key (kbd "C-x -") 'toggle-window-split)
+
+;; ace-jump-mode
+(global-set-key (kbd "C-c SPC") 'ace-jump-mode)
+
+;; HTML
+(global-set-key (kbd "C-c C-e") 'sgml-close-tag)
+(global-set-key (kbd "C-c j") 'zencoding-expand-line)
 
 (provide 'key-bindings)

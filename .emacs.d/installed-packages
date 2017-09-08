@@ -6,3 +6,9 @@ cider
 clj-refactor
 iy-go-to-char
 magit
+typescript-mode
+ace-jump-mode
+zencoding-mode
+projectile
+clojure-mode-extra-font-locking
+flycheck-clojure

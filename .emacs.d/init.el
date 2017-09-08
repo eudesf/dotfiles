@@ -67,3 +67,10 @@
 (require 'key-bindings)
 (require 'setup-paredit)
 (require 'setup-yasnippet)
+(require 'setup-sgml)
+(require 'setup-ido)
+(require 'magnars-setup-clojure-mode)
+(require 'sane-defaults)
+
+(require 'ace-jump-mode)
+(require 'zencoding-mode)
