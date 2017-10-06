@@ -27,3 +27,11 @@
       (forward-line)
       (transpose-lines -1))
     (move-to-column col)))
+
+(defun duplicate-line ()
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (newline)
+  (yank))

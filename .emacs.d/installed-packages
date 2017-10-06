@@ -1,4 +1,3 @@
-cyberpunk-theme
 expand-region
 multiple-cursors
 visual-regexp
@@ -14,3 +13,5 @@ clojure-mode-extra-font-locking
 flycheck-clojure
 elisp-slime-nav
 diminish
+badwolf-theme
+flx-ido

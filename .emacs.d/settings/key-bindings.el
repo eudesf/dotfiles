@@ -34,9 +34,14 @@
 (global-set-key (kbd "C-c C-e") 'sgml-close-tag)
 (global-set-key (kbd "C-c j") 'zencoding-expand-line)
 
+;; Editing
 (global-set-key (kbd "<C-return>") 'open-line-below)
 (global-set-key (kbd "<C-S-return>") 'open-line-above)
 (global-set-key (kbd "<C-S-down>") 'move-line-down)
 (global-set-key (kbd "<C-S-up>") 'move-line-up)
+(global-set-key (kbd "C-c <down>") 'duplicate-line)
+
+;; recentf
+(global-set-key (kbd "C-x r") 'recentf-open-files)
 
 (provide 'key-bindings)

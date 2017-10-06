@@ -81,4 +81,5 @@
 (add-hook 'emacs-lisp-mode-hook (lambda () (elisp-slime-nav-mode t)))
 (eval-after-load 'elisp-slime-nav '(diminish 'elisp-slime-nav-mode))
 
-
+;; recentf
+(recentf-mode 1)
