@@ -1,0 +1,15 @@
+# name : SDL_Window creation
+# --
+SDL_Window* win = SDL_CreateWindow("$1",
+                                   SDL_WINDOWPOS_CENTERED,
+                                   SDL_WINDOWPOS_CENTERED,
+                                   $2, $3, 0);
+if (!win) {
+  printf("error creating window: %s\n", SDL_GetError());
+  SDL_Quit();
+  return 1;
+}
+
+$0
+
+SDL_DestroyWindow(win);

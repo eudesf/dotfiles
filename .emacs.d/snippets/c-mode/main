@@ -1,0 +1,6 @@
+#name : main template
+# --
+int main(void)
+{
+    $0
+}

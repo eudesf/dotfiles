@@ -1,0 +1,4 @@
+#name : stdio.h include
+# --
+#include <stdio.h>
+$0

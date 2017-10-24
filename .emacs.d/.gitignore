@@ -8,3 +8,6 @@ projectile-bookmarks.eld
 projectile.cache
 local-config.el
 recentf
+network-security.data
+session.*
+ac-comphist.dat
