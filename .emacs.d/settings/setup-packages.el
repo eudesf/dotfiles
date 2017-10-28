@@ -23,6 +23,8 @@
      clojure-mode-extra-font-locking
      flycheck-clojure
      elisp-slime-nav
-     diminish)))
+     diminish
+     auto-complete-clang
+     flycheck-clangcheck)))
 
 (provide 'setup-packages)

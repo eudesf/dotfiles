@@ -1,6 +1,6 @@
 #name : main template
 # --
-int main(void)
+int main(int argc, char* argv[])
 {
     $0
 }
