@@ -39,7 +39,7 @@
 (global-set-key (kbd "<C-S-return>") 'open-line-above)
 (global-set-key (kbd "<C-S-down>") 'move-line-down)
 (global-set-key (kbd "<C-S-up>") 'move-line-up)
-(global-set-key (kbd "C-c <down>") 'duplicate-line)
+(global-set-key (kbd "C-c d") 'duplicate-line)
 
 ;; recentf
 (global-set-key (kbd "C-x r") 'recentf-open-files)
